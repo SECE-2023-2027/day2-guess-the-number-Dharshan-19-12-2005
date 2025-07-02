@@ -1,0 +1,43 @@
+  .login {
+
+      background-color: rgb(104, 99, 99);
+      border: 10px solid rgb(81, 75, 75);
+      bottom: 50px;
+      text-align: center;
+      padding: 20px;
+      cursor: pointer;
+  }
+
+  .login:hover {
+      background-color: rgb(67, 100, 193);
+      transform: scale(1.1);
+      font-size: 18px;
+      border: 10px solid rgb(39, 237, 102);
+  }
+
+  .flex-container {
+  display: flex;
+  flex-wrap: wrap;              
+  justify-content: center;      
+  gap: auto;            
+  padding: 20px;
+}
+
+.box {
+  background-color: red;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 4px solid black;
+}
+
+.flexo{
+    margin-top: 50px;
+    font-size: x-large;
+    display: block;
+    text-align: center;
+}
