@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.between {
+  color: #bbb;
+  font-size: 1.2rem;
+}
+
+.number {
+  font-size: 6rem;
+  background-color: #eee;
+  color: #222;
+  width: 15rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1.5rem;
+}
+
+.guess {
+  font-size: 2rem;
+  width: 10rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 0.7rem 2rem;
+  border: none;
+  background-color: #60b347;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #4e9e34;
+}
+
+.message {
+  font-size: 1.5rem;
+  min-height: 2rem;
+}
+
+.label-score,
+.label-highscore {
+  font-size: 1.2rem;
+}

@@ -27,7 +27,7 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(137, 230, 224, 0.692);
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -59,7 +59,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #575bb6;
   margin-bottom: auto;
 }
 
@@ -78,7 +78,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #366bc7;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -114,13 +114,13 @@ main {
   font-weight: 400;
   transition: all 0.2s;
 
-  background-color: white;
+  background-color: rgb(202, 114, 114);
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
 
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1.75rem 3.5rem rgba(78, 60, 83, 0.516);
 }
 
 .btn::first-letter {
@@ -163,7 +163,7 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #564fd8;
 }
 
 .hidden {
